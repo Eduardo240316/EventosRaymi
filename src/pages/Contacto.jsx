@@ -15,7 +15,7 @@ export default function Contacto() {
   return (
     <section className="grid min-h-screen lg:grid-cols-2">
       {/* Left info */}
-      <div className="bg-navy-900 px-6 pb-16 pt-32 text-white sm:px-10 lg:px-16">
+      <div className="bg-navy-900 px-6 pb-16 pt-16 text-white sm:px-10 lg:px-16">
         <h1 className="font-serif text-4xl font-bold sm:text-5xl">Estamos aquí para ti</h1>
         <p className="mt-4 max-w-md text-white/60">
           Visítanos, escríbenos o llámanos. Estamos disponibles todos los días para ayudarte a
@@ -47,7 +47,7 @@ export default function Contacto() {
       </div>
 
       {/* Right form */}
-      <div className="bg-white px-6 pb-16 pt-32 sm:px-10 lg:px-16">
+      <div className="bg-white px-6 pb-16 pt-16 sm:px-10 lg:px-16">
         <h2 className="font-serif text-3xl font-bold text-navy">Envíanos un mensaje</h2>
         <p className="mt-2 text-sm text-navy-700/70">Te respondemos en menos de 24 horas</p>
 

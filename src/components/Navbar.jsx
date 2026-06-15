@@ -15,7 +15,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="absolute inset-x-0 top-0 z-30">
+    <header className="sticky top-0 z-40 bg-navy-900 shadow-lg shadow-navy-900/20">
       <div className="container-x flex items-center justify-between py-4">
         <Logo />
 

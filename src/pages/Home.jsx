@@ -12,7 +12,7 @@ export default function Home() {
       <section className="relative isolate min-h-[640px] overflow-hidden">
         <img src={HERO_IMG} alt="Salón decorado" className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-navy-900 via-navy-900/85 to-navy-900/40" />
-        <div className="container-x relative flex min-h-[640px] flex-col justify-center pt-24">
+        <div className="container-x relative flex min-h-[640px] flex-col justify-center">
           <p className="eyebrow">Vive momentos inolvidables</p>
           <h1 className="mt-4 max-w-2xl font-serif text-5xl font-bold leading-tight text-white sm:text-6xl">
             Salón de Eventos <span className="block text-gold">RAYMI</span>

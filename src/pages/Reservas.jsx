@@ -20,7 +20,7 @@ export default function Reservas() {
   return (
     <section className="grid min-h-screen lg:grid-cols-2">
       {/* Form */}
-      <div className="bg-cream px-6 pb-16 pt-32 sm:px-10 lg:px-16">
+      <div className="bg-cream px-6 pb-16 pt-16 sm:px-10 lg:px-16">
         <h1 className="font-serif text-4xl font-bold text-navy">Solicitar Reserva</h1>
         <p className="mt-2 text-sm text-navy-700/70">
           Completa el formulario y nos contactaremos contigo en menos de 24 horas
@@ -83,7 +83,7 @@ export default function Reservas() {
       </div>
 
       {/* Info */}
-      <div className="bg-navy-900 px-6 pb-16 pt-32 text-white sm:px-10 lg:px-16">
+      <div className="bg-navy-900 px-6 pb-16 pt-16 text-white sm:px-10 lg:px-16">
         <p className="eyebrow">¿Por qué elegirnos?</p>
         <h2 className="mt-2 font-serif text-3xl font-bold">Tu evento en manos expertas</h2>
 
