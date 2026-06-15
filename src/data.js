@@ -14,7 +14,7 @@ export const packages = [
     name: 'BÁSICO',
     price: 'S/ 1,500',
     featured: false,
-    img: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&q=80',
+    img: '/images/paquete-basico.jpg',
     features: [
       'Salón hasta 100 personas',
       'Sonido básico',
@@ -26,7 +26,7 @@ export const packages = [
     name: 'PREMIUM',
     price: 'S/ 2,800',
     featured: true,
-    img: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=900&q=80',
+    img: '/images/paquete-premium.jpg',
     features: [
       'Salón hasta 200 personas',
       'Sonido profesional',
@@ -39,7 +39,7 @@ export const packages = [
     name: 'VIP',
     price: 'S/ 4,500',
     featured: false,
-    img: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=900&q=80',
+    img: '/images/paquete-vip.jpg',
     features: [
       'Salón hasta 300 personas',
       'Sonido e iluminación avanzada',
@@ -91,19 +91,19 @@ export const heroFeatures = [
   { icon: 'shield', title: 'Seguridad', text: 'Garantía y confianza' },
 ]
 
-const g = (id) =>
-  `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=800&q=80`
-
 export const gallery = [
-  { src: g('1519167758481-83f550bb49b3'), cat: 'Boda' },
-  { src: g('1530103862676-de8c9debad1d'), cat: 'Quinceañera' },
-  { src: g('1464366400600-7168b8af9bc3'), cat: 'Boda' },
-  { src: g('1511795409834-ef04bbd61622'), cat: 'Cumpleaños' },
-  { src: g('1492684223066-81342ee5ff30'), cat: 'Corporativos' },
-  { src: g('1519225421980-715cb0215aed'), cat: 'Boda' },
-  { src: g('1467810563316-b5476525c0f9'), cat: 'Quinceañera' },
-  { src: g('1505236858219-8359eb29e329'), cat: 'Cumpleaños' },
-  { src: g('1470229722913-7c0e2dbbafd3'), cat: 'Corporativos' },
+  { src: '/images/g01.jpg', cat: 'Corporativos' },
+  { src: '/images/g02.jpg', cat: 'Boda' },
+  { src: '/images/g03.jpg', cat: 'Boda' },
+  { src: '/images/g04.jpg', cat: 'Boda' },
+  { src: '/images/g05.jpg', cat: 'Quinceañera' },
+  { src: '/images/g06.jpg', cat: 'Quinceañera' },
+  { src: '/images/g07.jpg', cat: 'Quinceañera' },
+  { src: '/images/g08.jpg', cat: 'Cumpleaños' },
+  { src: '/images/g09.jpg', cat: 'Cumpleaños' },
+  { src: '/images/g10.jpg', cat: 'Cumpleaños' },
+  { src: '/images/g11.jpg', cat: 'Corporativos' },
+  { src: '/images/g12.jpg', cat: 'Corporativos' },
 ]
 
 export const galleryCategories = ['Todos', 'Boda', 'Quinceañera', 'Cumpleaños', 'Corporativos']
