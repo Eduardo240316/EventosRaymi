@@ -39,7 +39,7 @@ export default function Contacto() {
         <div className="mt-10 overflow-hidden rounded-xl border border-gold/30">
           <iframe
             title="Ubicación RAYMI"
-            src="https://www.google.com/maps?q=San+Jer%C3%B3nimo+Cusco+Peru&output=embed"
+            src="https://www.google.com/maps?q=San+Jer%C3%B3nimo+Andahuaylas+Apur%C3%ADmac+Per%C3%BA&output=embed"
             className="h-56 w-full"
             loading="lazy"
           />

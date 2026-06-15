@@ -4,7 +4,7 @@ export const CONTACT = {
   phone: '+51 986 251 635',
   phoneRaw: '51986251635',
   email: 'flor.gml@hotmail.com',
-  address: 'Av. José María Arguedas Tercera cuadra (Totoral), San Jerónimo, Peru, 03701',
+  address: 'Av. José María Arguedas Tercera cuadra (Totoral), San Jerónimo, Andahuaylas, Apurímac, Perú',
   hours: 'Lunes a Domingo: 9:00 AM – 10:00 PM',
   capacity: '300 personas',
 }
