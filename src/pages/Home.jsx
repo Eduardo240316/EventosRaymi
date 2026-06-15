@@ -3,8 +3,7 @@ import Icon from '../components/Icon'
 import PackageCard from '../components/PackageCard'
 import { CONTACT, heroFeatures, packages } from '../data'
 
-const HERO_IMG =
-  'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1600&q=80'
+const HERO_IMG = '/images/hero.jpg'
 
 export default function Home() {
   return (
