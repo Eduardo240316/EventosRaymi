@@ -51,12 +51,17 @@ export default function Galeria() {
           </div>
 
           <p className="mt-10 text-center text-sm text-navy-700/60">
-            Mostrando {filtered.length} de 48 fotos
+            Mostrando {filtered.length} {filtered.length === 1 ? 'foto' : 'fotos'}
           </p>
           <div className="mt-4 text-center">
-            <button className="rounded-full border border-gold px-6 py-2.5 text-sm font-medium text-gold transition hover:bg-gold hover:text-navy-900">
+            <a
+              href="https://www.facebook.com/salonraymisanjeronimo/photos"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block rounded-full border border-gold px-6 py-2.5 text-sm font-medium text-gold transition hover:bg-gold hover:text-navy-900"
+            >
               Ver más fotos →
-            </button>
+            </a>
           </div>
         </div>
       </section>
